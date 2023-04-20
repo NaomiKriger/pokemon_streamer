@@ -1,0 +1,15 @@
+{
+  "number": 140,
+  "name": "Maractus",
+  "type_one": "Grass",
+  "type_two": "",
+  "total": 461,
+  "hit_points": 75,
+  "attack": 86,
+  "defense": 67,
+  "special_attack": 106,
+  "special_defense": 67,
+  "speed": 60,
+  "generation": 5,
+  "legendary": false
+}

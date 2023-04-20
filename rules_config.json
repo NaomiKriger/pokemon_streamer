@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "url": "https://pokemon-streamer.herokuapp.com/pokeball",
+      "reason": "awesome pokemon",
+      "match": [
+        "   hit_points   ==20",
+        "type_two!=word",
+        "special_defense > 10",
+        "generation< 20"
+      ]
+    },
+    {
+      "url": "https://pokemon-streamer.herokuapp.com/catch_em_all",
+      "reason": "special attacks and defenses",
+      "match": [
+        "special_attack >50",
+        "special_defense > 50"
+      ]
+    },
+    {
+      "url": "https://pokemon-streamer.herokuapp.com/catch_em_all",
+      "reason": "many hit points",
+      "match": [
+        "hit_points >100"
+      ]
+    },
+    {
+      "url": "https://pokemon-streamer.herokuapp.com/pokeball",
+      "reason": "high number",
+      "match": [
+        "number>100"
+      ]
+    }
+  ]
+}
